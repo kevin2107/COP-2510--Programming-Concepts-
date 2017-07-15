@@ -3,7 +3,8 @@ public class AttackerSuccessProbability
    //instance data
    private double ProbabilityTheAttackerFindsNextBlock;
    private double ProbabilityAnHonestNodeFindsNextBlock;
-
+   private double p, q;
+   private int z;
    //Constructors - Accepts Paramaters
    public AttackerSuccessProbability (double q, int z)
    {
@@ -40,8 +41,13 @@ public class AttackerSuccessProbability
        return sum;
    }
 
-   public double toDouble()
+   public String toString()
    {
-      return solveAttackerSuccessProbability(0.1, 0);
+      //for (int z = 0; z < 1;z++)
+      //{      
+      //   System.out.println(AttackerSuccessProbability(q, z));
+      //}   
+   
+      return "z=" + z + "    P=" + solveAttackerSuccessProbability(q, z);
    }
 }

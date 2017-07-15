@@ -12,27 +12,15 @@ public class AttackerSuccessProbailityDriver
    //Declare Variables
 
    //Create objects
-   
-   public double solveAttackerSuccessProbability(double q, int z)
+   double q = .3;
+   System.out.println("q= " + q);
+      
+   for (int z = 0; z < 10;z++)
    {
-      double p = 1.0 - q;
-      double lambda = z * (q/p);
-      double sum = 1.0;
-      int i, k;
-      for (k = 0; k <= z; k++)
-      {
-         double poisson = Math.exp(-lambda);
-         for (i = 1; i <= k; i++)
-          poisson *= lambda / i;
-         sum -= poisson * (1- Math.pow(q/p, z -k));
-       }
-       return sum;
+      AttackerSuccessProbability ASP = new AttackerSuccessProbability(q, z);
+      System.out.println(ASP);
    }
-
-   
-   AttackerSuccessProbability ASP = new AttackerSuccessProbability();
-   
-   System.out.println(sum);
+     
 
    }
 }
