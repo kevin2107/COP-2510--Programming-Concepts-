@@ -23,7 +23,7 @@ public class DiffMatrix
       {
          Matrix1[i][j] = InputArray.nextDouble();
       }
-p   }
+   }
 
    //Second Matrix
    System.out.print("Enter Matrix 2: ");
