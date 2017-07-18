@@ -3,7 +3,7 @@
 import java.util.Scanner;
 import java.text.NumberFormat;
 
-public class investments
+public class Investments
 {
    //This program asks the user for an initial investment amount, annual interest rate
    //and number of years. The program then calculates and display the future investment value
@@ -14,9 +14,8 @@ public class investments
     //Declare Inputs
     Scanner scan = new Scanner(System.in);
     //Declare Variables
-    double numberOfYears,FutureAmt,initial,annualRate,years,futureValue,monthlyRate;
-    boolean reset = true;
-
+    double numberOfYears,initial,annualRate,years,futureValue,monthlyRate;
+    
     NumberFormat fmt = NumberFormat.getCurrencyInstance();
 
     System.out.print("Enter the investment amount: $");

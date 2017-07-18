@@ -20,9 +20,11 @@ public class Rainfall
       double[] Rainfall = new double[12];
       double sum = 0;
       double average = 0;
-      double highestRain=0,lowestRain=9999;
+      double highestRain=0;
+      double lowestRain=9999;
       boolean reset = true;
-      String highMonth="",lowMonth="";
+      String highMonth="";
+      String lowMonth="";
 
       do
       {

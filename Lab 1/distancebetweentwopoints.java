@@ -3,7 +3,7 @@
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-public class distancebetweentwopoints
+public class DistanceBetweenTwopoints
 {
    public static void main(String[] args)
    {
@@ -12,7 +12,10 @@ public class distancebetweentwopoints
    //Declare Inputs
    Scanner scan = new Scanner(System.in);
    //Declare Variables
-   int firstXvalue,secondXvalue,firstYvalue,secondYvalue;
+   int firstXvalue;
+   int secondXvalue;
+   int firstYvalue;
+   int secondYvalue;
    double intheroot,Distance;
    
    DecimalFormat fmt = new DecimalFormat("0.###");   
