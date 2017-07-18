@@ -12,7 +12,9 @@ public class DiffMatrix
    //Declare Variables
    double[][] Matrix1 = new double[3][3];
    double[][] Matrix2 = new double[3][3];
-   int i=0,j=0,k=0;
+   int i=0;
+   int j=0;
+   int k=0;
    
    //1st Matrix
    System.out.print("Enter Matrix 1: ");

@@ -16,7 +16,8 @@ public class DistanceBetweenTwopoints
    int secondXvalue;
    int firstYvalue;
    int secondYvalue;
-   double intheroot,Distance;
+   double intheroot;
+   double Distance;
    
    DecimalFormat fmt = new DecimalFormat("0.###");   
    

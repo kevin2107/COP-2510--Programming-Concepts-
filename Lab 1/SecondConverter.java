@@ -12,7 +12,11 @@ public class SecondConverter
    //Declare Inputs
    Scanner scan = new Scanner(System.in);
    //Declare Variables
-   int hours,minute1,minute2,seconds,userinput;
+   int hours;
+   int minute1;
+   int minute2;
+   int seconds;
+   int userinput;
    
    System.out.print("Enter the number of seconds: ");
       userinput = scan.nextInt();

@@ -17,7 +17,9 @@ public class Bankcharges
    //Declare Inputs
       Scanner IntputChecks = new Scanner(System.in);
    //Declare Variables
-      double ChecksWritten, Total, TotalFee;      
+      double ChecksWritten;
+      double Total;
+      double TotalFee;      
       NumberFormat fmt = NumberFormat.getCurrencyInstance();   
    
       System.out.print("Enter the number of checks written this month: ");

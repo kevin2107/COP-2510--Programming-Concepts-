@@ -15,7 +15,10 @@ public class Quiz
     Scanner input = new Scanner(System.in);
     Random generator = new Random(); 
     //Declare Variables
-    int random1,random2,answer,useranswer;
+    int random1;
+    int random2;
+    int answer;
+    int useranswer;
   
      
     random1 = generator.nextInt(MAX)+10;//generates two numbers between 10 - 99

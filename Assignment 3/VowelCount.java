@@ -10,7 +10,13 @@ public class VowelCount
    Scanner input = new Scanner(System.in);
    //Declare Variables
    String UserString;
-   int IndexPosition,InputLength,VowelCountA=0,VowelCountE=0,VowelCountI=0,VowelCountO=0,VowelCountU=0;
+   int IndexPosition;
+   int InputLength;
+   int VowelCountA=0;
+   int VowelCountE=0;
+   int VowelCountI=0;
+   int VowelCountO=0;
+   int VowelCountU=0;
      
    System.out.print("Enter a string of characters: ");
       UserString = input.nextLine();

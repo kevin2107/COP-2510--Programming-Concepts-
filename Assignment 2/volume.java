@@ -14,7 +14,9 @@ public class volume
     //Declare Inputs
     Scanner scan = new Scanner(System.in);
     //Declare Variables
-    double radius,volume,surface;
+    double radius;
+    double volume;
+    double surface;
     
     DecimalFormat Round4 = new DecimalFormat ("0.####");
     

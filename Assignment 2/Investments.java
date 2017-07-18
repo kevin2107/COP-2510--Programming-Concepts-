@@ -14,7 +14,13 @@ public class Investments
     //Declare Inputs
     Scanner scan = new Scanner(System.in);
     //Declare Variables
-    double numberOfYears,initial,annualRate,years,futureValue,monthlyRate;
+    double numberOfYears;
+    double initial;
+    double annualRate;
+    double doubledoubleyears;
+    double FutureAmt;
+    double monthlyRate;
+    double years;
     
     NumberFormat fmt = NumberFormat.getCurrencyInstance();
 

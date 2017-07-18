@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 
 public class Sphere
 {
-  DecimalFormat fmt = new DecimalFormat("0.###");
+  private DecimalFormat fmt = new DecimalFormat("0.###");
   //instance data
   private double radius;
 
